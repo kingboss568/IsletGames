@@ -1,0 +1,2 @@
+No account is required. The first three games are free. Premium games and theme packs are unlocked through Apple StoreKit 2 non-consumable in-app purchases. Core gameplay works offline. AI gameplay tips are optional and fall back gracefully when unavailable.
+

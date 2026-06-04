@@ -1,0 +1,12 @@
+app_identifier ENV.fetch("APP_IDENTIFIER", "com.jiang.isletgames")
+metadata_path "./fastlane/metadata"
+screenshots_path "./fastlane/screenshots"
+platform "ios"
+languages(["zh-Hant"])
+primary_category "Games"
+primary_first_sub_category "Casual"
+primary_second_sub_category "Puzzle"
+submit_for_review false
+automatic_release false
+skip_binary_upload true
+precheck_include_in_app_purchases false

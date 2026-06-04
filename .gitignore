@@ -1,0 +1,11 @@
+.DS_Store
+._*
+.env.fastlane
+Build/archive/
+Build/ipa/*.ipa
+DerivedData/
+source/Packages/SharedCore/.build/
+xcuserdata/
+*.xcuserstate
+*.xcresult
+*.xcarchive

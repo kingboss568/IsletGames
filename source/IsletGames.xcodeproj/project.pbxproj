@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0000000000000000000003EA /* IsletGamesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000003E9 /* IsletGamesApp.swift */; };
+		0000000000000000000003EC /* Models/AppModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000003EB /* Models/AppModels.swift */; };
+		0000000000000000000003EE /* Services/GameCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000003ED /* Services/GameCatalog.swift */; };
+		0000000000000000000003F0 /* Services/PurchaseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000003EF /* Services/PurchaseStore.swift */; };
+		0000000000000000000003F2 /* Views/AppShellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000003F1 /* Views/AppShellView.swift */; };
+		0000000000000000000003F4 /* Views/OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000003F3 /* Views/OnboardingView.swift */; };
+		0000000000000000000003F6 /* Views/MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000003F5 /* Views/MainMenuView.swift */; };
+		0000000000000000000003F8 /* Views/GameDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000003F7 /* Views/GameDetailView.swift */; };
+		0000000000000000000003FA /* Views/TurtleFlipGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000003F9 /* Views/TurtleFlipGameView.swift */; };
+		0000000000000000000003FC /* Views/SandSortGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000003FB /* Views/SandSortGameView.swift */; };
+		0000000000000000000003FE /* Views/CollectionLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000003FD /* Views/CollectionLibraryView.swift */; };
+		000000000000000000000400 /* Views/ProgressExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000003FF /* Views/ProgressExportView.swift */; };
+		000000000000000000000402 /* Views/PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000401 /* Views/PaywallView.swift */; };
+		000000000000000000000404 /* Views/SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000403 /* Views/SettingsView.swift */; };
+		000000000000000000000406 /* SpriteKit/GameScenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000405 /* SpriteKit/GameScenes.swift */; };
+		000000000000000000000408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000407 /* Assets.xcassets */; };
+		00000000000000000000040A /* Resources/SeedGames.json in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000409 /* Resources/SeedGames.json */; };
+		00000000000000000000040C /* Resources/SeedCollectionCards.json in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000040B /* Resources/SeedCollectionCards.json */; };
+		00000000000000000000040E /* Resources/LocalRAGIndex.json in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000040D /* Resources/LocalRAGIndex.json */; };
+		000000000000000000000410 /* Resources/PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000040F /* Resources/PrivacyInfo.xcprivacy */; };
+		00000000000000000000041C /* SharedCore in Frameworks */ = {isa = PBXBuildFile; productRef = 00000000000000000000041E /* SharedCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0000000000000000000003E9 /* IsletGamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsletGamesApp.swift; sourceTree = "<group>"; };
+		0000000000000000000003EB /* Models/AppModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/AppModels.swift; sourceTree = "<group>"; };
+		0000000000000000000003ED /* Services/GameCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/GameCatalog.swift; sourceTree = "<group>"; };
+		0000000000000000000003EF /* Services/PurchaseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/PurchaseStore.swift; sourceTree = "<group>"; };
+		0000000000000000000003F1 /* Views/AppShellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/AppShellView.swift; sourceTree = "<group>"; };
+		0000000000000000000003F3 /* Views/OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/OnboardingView.swift; sourceTree = "<group>"; };
+		0000000000000000000003F5 /* Views/MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/MainMenuView.swift; sourceTree = "<group>"; };
+		0000000000000000000003F7 /* Views/GameDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/GameDetailView.swift; sourceTree = "<group>"; };
+		0000000000000000000003F9 /* Views/TurtleFlipGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/TurtleFlipGameView.swift; sourceTree = "<group>"; };
+		0000000000000000000003FB /* Views/SandSortGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/SandSortGameView.swift; sourceTree = "<group>"; };
+		0000000000000000000003FD /* Views/CollectionLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/CollectionLibraryView.swift; sourceTree = "<group>"; };
+		0000000000000000000003FF /* Views/ProgressExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ProgressExportView.swift; sourceTree = "<group>"; };
+		000000000000000000000401 /* Views/PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/PaywallView.swift; sourceTree = "<group>"; };
+		000000000000000000000403 /* Views/SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/SettingsView.swift; sourceTree = "<group>"; };
+		000000000000000000000405 /* SpriteKit/GameScenes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKit/GameScenes.swift; sourceTree = "<group>"; };
+		000000000000000000000407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		000000000000000000000409 /* Resources/SeedGames.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Resources/SeedGames.json; sourceTree = "<group>"; };
+		00000000000000000000040B /* Resources/SeedCollectionCards.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Resources/SeedCollectionCards.json; sourceTree = "<group>"; };
+		00000000000000000000040D /* Resources/LocalRAGIndex.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Resources/LocalRAGIndex.json; sourceTree = "<group>"; };
+		00000000000000000000040F /* Resources/PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		000000000000000000000411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000000000000000000000412 /* IsletGames.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IsletGames.entitlements; sourceTree = "<group>"; };
+		000000000000000000000417 /* IsletGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsletGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00000000000000000000041B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00000000000000000000041C /* SharedCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000414 = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000416 /* IsletGames */,
+				000000000000000000000415 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000000000000000415 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000417 /* IsletGames.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000000000000000000000416 /* IsletGames */ = {
+			isa = PBXGroup;
+			children = (
+				0000000000000000000003E9 /* IsletGamesApp.swift */,
+				0000000000000000000003EB /* Models/AppModels.swift */,
+				0000000000000000000003ED /* Services/GameCatalog.swift */,
+				0000000000000000000003EF /* Services/PurchaseStore.swift */,
+				0000000000000000000003F1 /* Views/AppShellView.swift */,
+				0000000000000000000003F3 /* Views/OnboardingView.swift */,
+				0000000000000000000003F5 /* Views/MainMenuView.swift */,
+				0000000000000000000003F7 /* Views/GameDetailView.swift */,
+				0000000000000000000003F9 /* Views/TurtleFlipGameView.swift */,
+				0000000000000000000003FB /* Views/SandSortGameView.swift */,
+				0000000000000000000003FD /* Views/CollectionLibraryView.swift */,
+				0000000000000000000003FF /* Views/ProgressExportView.swift */,
+				000000000000000000000401 /* Views/PaywallView.swift */,
+				000000000000000000000403 /* Views/SettingsView.swift */,
+				000000000000000000000405 /* SpriteKit/GameScenes.swift */,
+				000000000000000000000407 /* Assets.xcassets */,
+				000000000000000000000409 /* Resources/SeedGames.json */,
+				00000000000000000000040B /* Resources/SeedCollectionCards.json */,
+				00000000000000000000040D /* Resources/LocalRAGIndex.json */,
+				00000000000000000000040F /* Resources/PrivacyInfo.xcprivacy */,
+				000000000000000000000411 /* Info.plist */,
+				000000000000000000000412 /* IsletGames.entitlements */,
+			);
+			path = IsletGames;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000000000418 /* IsletGames */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000420 /* Build configuration list for PBXNativeTarget "IsletGames" */;
+			buildPhases = (
+				000000000000000000000419 /* Sources */,
+				00000000000000000000041B /* Frameworks */,
+				00000000000000000000041A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IsletGames;
+			packageProductDependencies = (
+				00000000000000000000041E /* SharedCore */,
+			);
+			productName = IsletGames;
+			productReference = 000000000000000000000417 /* IsletGames.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000413 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					000000000000000000000418 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 00000000000000000000041F /* Build configuration list for PBXProject "IsletGames" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hant",
+			);
+			mainGroup = 000000000000000000000414;
+			packageReferences = (
+				00000000000000000000041D /* XCLocalSwiftPackageReference "Packages/SharedCore" */,
+			);
+			productRefGroup = 000000000000000000000415 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000000000000000000418 /* IsletGames */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00000000000000000000041A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000408 /* Assets.xcassets in Resources */,
+				00000000000000000000040A /* Resources/SeedGames.json in Resources */,
+				00000000000000000000040C /* Resources/SeedCollectionCards.json in Resources */,
+				00000000000000000000040E /* Resources/LocalRAGIndex.json in Resources */,
+				000000000000000000000410 /* Resources/PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000000000000000000419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0000000000000000000003EA /* IsletGamesApp.swift in Sources */,
+				0000000000000000000003EC /* Models/AppModels.swift in Sources */,
+				0000000000000000000003EE /* Services/GameCatalog.swift in Sources */,
+				0000000000000000000003F0 /* Services/PurchaseStore.swift in Sources */,
+				0000000000000000000003F2 /* Views/AppShellView.swift in Sources */,
+				0000000000000000000003F4 /* Views/OnboardingView.swift in Sources */,
+				0000000000000000000003F6 /* Views/MainMenuView.swift in Sources */,
+				0000000000000000000003F8 /* Views/GameDetailView.swift in Sources */,
+				0000000000000000000003FA /* Views/TurtleFlipGameView.swift in Sources */,
+				0000000000000000000003FC /* Views/SandSortGameView.swift in Sources */,
+				0000000000000000000003FE /* Views/CollectionLibraryView.swift in Sources */,
+				000000000000000000000400 /* Views/ProgressExportView.swift in Sources */,
+				000000000000000000000402 /* Views/PaywallView.swift in Sources */,
+				000000000000000000000404 /* Views/SettingsView.swift in Sources */,
+				000000000000000000000406 /* SpriteKit/GameScenes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		000000000000000000000421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		000000000000000000000422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		000000000000000000000423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IsletGames/IsletGames.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7H7ZUG2WX8;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = IsletGames/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiang.isletgames;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000000000000000000000424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IsletGames/IsletGames.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7H7ZUG2WX8;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = IsletGames/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiang.isletgames;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00000000000000000000041F /* Build configuration list for PBXProject "IsletGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000421 /* Debug */,
+				000000000000000000000422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000000000000000000420 /* Build configuration list for PBXNativeTarget "IsletGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000423 /* Debug */,
+				000000000000000000000424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		00000000000000000000041D /* XCLocalSwiftPackageReference "Packages/SharedCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/SharedCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		00000000000000000000041E /* SharedCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 00000000000000000000041D /* XCLocalSwiftPackageReference "Packages/SharedCore" */;
+			productName = SharedCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 000000000000000000000413 /* Project object */;
+}
