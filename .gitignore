@@ -5,6 +5,8 @@ Build/archive/
 Build/ipa/*.ipa
 DerivedData/
 source/Packages/SharedCore/.build/
+fastlane/README.md
+fastlane/report.xml
 xcuserdata/
 *.xcuserstate
 *.xcresult

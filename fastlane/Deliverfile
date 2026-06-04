@@ -3,9 +3,9 @@ metadata_path "./fastlane/metadata"
 screenshots_path "./fastlane/screenshots"
 platform "ios"
 languages(["zh-Hant"])
-primary_category "Games"
-primary_first_sub_category "Casual"
-primary_second_sub_category "Puzzle"
+primary_category "GAMES"
+primary_first_sub_category "GAMES_CASUAL"
+primary_second_sub_category "GAMES_PUZZLE"
 submit_for_review false
 automatic_release false
 skip_binary_upload true
