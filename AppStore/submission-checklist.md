@@ -13,9 +13,9 @@
 
 - [x] Privacy Policy exists in repo.
 - [x] Support page exists in repo.
-- [ ] Repo has a Git remote.
-- [ ] Privacy Policy and Support pages pushed.
-- [ ] Public Privacy/Support URLs open on phone and match App Store metadata.
+- [x] Repo has a Git remote.
+- [x] Privacy Policy and Support pages pushed.
+- [x] Public Privacy/Support URLs open and match App Store metadata.
 
 ## IAP
 
@@ -31,4 +31,3 @@
 - [ ] iPad 13 screenshots captured.
 - [ ] Each set includes six distinct, nonblank screenshots.
 - [ ] Each set includes the unlock/paywall screen.
-
